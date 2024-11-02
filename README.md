@@ -11,8 +11,8 @@ This project is a C++ simulation designed to model the interactions between pred
 
 ## Model Fundamentals
 The simulation is based on the **Lotka-Volterra equations**, a pair of differential equations that describe predator-prey dynamics.
--**Prey Growth**: Prey population increases proportionally to its current population and decreases with predator hunting activity.
--**Predator Mortality**: Predator population grows based on prey availability and declines due to natural mortality.
+- **Prey Growth**: Prey population increases proportionally to its current population and decreases with predator hunting activity.
+- **Predator Mortality**: Predator population grows based on prey availability and declines due to natural mortality.
 
 ### Equations
 1. **Prey Growth**:  

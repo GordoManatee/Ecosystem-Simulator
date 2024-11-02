@@ -1,5 +1,10 @@
 # Ecosystem Simulator (Predator-Prey)
 
+## Context
+An Ecosystem Simulator models the interactions between organisms, specifically focusing on the dynamics between predators and prey. In this context, the simulator uses the Lotka-Volterra model to represent how these populations affect each other over time based on factors like birth rates and predation.
+
+Creating an ecosystem simulator serves several purposes. It's a valuable educational tool that helps students and researchers visualize ecological principles and understand the balance within ecosystems. The simulation can also inform biodiversity studies, conservation efforts, and wildlife management policies by predicting the effects of changes in species populations. Additionally, it allows researchers to explore the potential impacts of climate change on ecosystem dynamics. Overall, the simulator illustrates the interconnectedness of species and emphasizes the delicate balance that sustains biodiversity.
+
 ## Description
 This project is a C++ simulation designed to model the interactions between predator and prey populations in a closed ecosystem. The simulation leverages object-oriented programming principles to create classes that represent each population and applies the **Lotka-Volterra model** to calculate the changes over time. This project provides a simple console-based simulation where users can observe population changes based on adjustable parameters for birth, death, and predation rates.
 

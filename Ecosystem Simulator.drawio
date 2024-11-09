@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.4">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-4" value="Ecosystem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="240" width="400" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-5" value="+ Predator: Predator class reference for population tracking and updating&lt;div&gt;+ Prey: Prey class reference for population tracking and updating&lt;br&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+ Time step:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Increased time period for simulation updates&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+ Total time:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Total simulation runtime&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-4">
+          <mxGeometry y="26" width="400" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-4">
+          <mxGeometry y="90" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-7" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-4">
+          <mxGeometry y="98" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-8" value="Predator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="520" width="380" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-9" value="&lt;div&gt;+ Hunting success rate:&amp;nbsp;Probability of a successful hunt&lt;/div&gt;&lt;div&gt;+ Prey population:&amp;nbsp;Reference prey class to track the prey population&lt;/div&gt;&lt;div&gt;+&amp;nbsp;Initial minimum:&amp;nbsp;Minimum prey population before predators start hunting&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-8">
+          <mxGeometry y="26" width="380" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-8">
+          <mxGeometry y="90" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-8">
+          <mxGeometry y="98" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-12" value="Organism" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="360" width="290" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-13" value="+ Name:&amp;nbsp; Name of the organism&lt;div&gt;+ Population:&amp;nbsp; Current population size&lt;/div&gt;&lt;div&gt;+ Birth rate:&amp;nbsp;Rate at which this organism reproduces&lt;/div&gt;&lt;div&gt;+ Death rate:&amp;nbsp;Rate at which this organism dies&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ Consume rate:&amp;nbsp;Ratio at which prey is consumed&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-12">
+          <mxGeometry y="26" width="290" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-12">
+          <mxGeometry y="110" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-15" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-12">
+          <mxGeometry y="118" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-16" value="Prey" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="680" width="340" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-17" value="+ Grow rate:&amp;nbsp;Rate at which prey is hunted by predators&lt;div&gt;+ Predator rate:&amp;nbsp;Natural growth rate independent of predation&lt;/div&gt;&lt;div&gt;+ Protection mechanism:&amp;nbsp;Indicates if the prey has a survival adaptation, like camouflage&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-16">
+          <mxGeometry y="26" width="340" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-16">
+          <mxGeometry y="90" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-19" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-16">
+          <mxGeometry y="98" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-20" value="Simulation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="149" y="40" width="530" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-21" value="+ population history: Stores historical populations of predator and prey for each timestep&lt;div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;+&lt;/font&gt;&lt;font face=&quot;Helvetica&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Helvetica&quot;&gt;Current time&lt;/font&gt;: Current simulation time&lt;/div&gt;&lt;div&gt;+ Log option: Option to log simulation results to file&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ Ecosystem: Ecosystem reference to access predator and prey data&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-20">
+          <mxGeometry y="30" width="530" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-20">
+          <mxGeometry y="100" width="530" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-23" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VoWDq8r4XL_x_KmoSq8U-20">
+          <mxGeometry y="108" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VoWDq8r4XL_x_KmoSq8U-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VoWDq8r4XL_x_KmoSq8U-21" target="VoWDq8r4XL_x_KmoSq8U-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="50" as="sourcePoint" />
+            <mxPoint x="55" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGtuWsq_26KaZ0SMTtX5-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VoWDq8r4XL_x_KmoSq8U-5" target="VoWDq8r4XL_x_KmoSq8U-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGtuWsq_26KaZ0SMTtX5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VoWDq8r4XL_x_KmoSq8U-13" target="VoWDq8r4XL_x_KmoSq8U-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGtuWsq_26KaZ0SMTtX5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VoWDq8r4XL_x_KmoSq8U-15" target="VoWDq8r4XL_x_KmoSq8U-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="698" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

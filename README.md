@@ -39,3 +39,7 @@ Where:
 - **Prey.h**: Defines the **Prey** class, including parameters like birth and predation rates.
 - **Ecosystem.h**: Manages interactions between predators and prey, applying the Lotka-Volterra equations.
 - **main.cpp**: Runs the simulation, initializes parameters, and outputs population changes over time.
+
+---
+
+![Ecosystem Simulator Diagram](https://github.com/GordoManatee/Ecosystem-Simulator/blob/main/Ecosystem%20Simulator.png?raw=true)

@@ -41,5 +41,4 @@ Where:
 - **main.cpp**: Runs the simulation, initializes parameters, and outputs population changes over time.
 
 ---
-
-![Ecosystem Simulator Diagram](https://github.com/GordoManatee/Ecosystem-Simulator/blob/main/Ecosystem%20Simulator.png?raw=true)
+![Ecosystem Simulator](https://github.com/user-attachments/assets/bb98f503-6a77-4f49-8847-ed6eccd9975c)

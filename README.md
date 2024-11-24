@@ -40,5 +40,6 @@ Where:
 - **Ecosystem.h**: Manages interactions between predators and prey, applying the Lotka-Volterra equations.
 - **main.cpp**: Runs the simulation, initializes parameters, and outputs population changes over time.
 
----
-![Ecosystem Simulator](https://github.com/user-attachments/assets/bb98f503-6a77-4f49-8847-ed6eccd9975c)
+---![Ecosystem Simulator](https://github.com/user-attachments/assets/4d9f9f72-8074-47c0-b225-d49c46668ff5)
+
+
